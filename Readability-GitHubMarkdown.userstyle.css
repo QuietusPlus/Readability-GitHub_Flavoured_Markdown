@@ -1,18 +1,19 @@
 /*
-
     Readability - GitHub Flavoured Markdown
 
     This "userstyle" will override the default
-    article view within readability. It hides
-    everything expect for the article and then
-    styles it using GitHub Flavoured Markdown.
+    article view within readability.
 
-    EXAMPLE: Any repository on GitHub that
-             also has a README.md.
+    - Removed everything but the article.
+    - "GitHub Flavoured Markdown" style.
+    - Manually removed unwanted elements for
+      some websites.
+
+    Developed and tested using "User CSS" for
+    Google Chrome: http://goo.gl/UsSbDO
 
     Huge thanks goes to "github-markdown-css"
     for the original stylesheet (link below) .
-
 */
 
 /*
@@ -99,7 +100,6 @@ style,
 .floatright {
     display: none !important
 }
-
 
 /*
     github-markdown-css [https://github.com/sindresorhus/github-markdown-css]
