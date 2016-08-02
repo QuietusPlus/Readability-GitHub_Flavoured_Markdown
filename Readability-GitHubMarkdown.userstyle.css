@@ -78,9 +78,10 @@ body,
 }
 
 /*
-    Hide elements
+    Hide Elements
 */
 
+/* Readability */
 .article-actions,
 .tools,
 .flyout,
@@ -90,6 +91,12 @@ style,
 .entry-meta,
 .entry-origin,
 .print-url {
+    display: none !important
+}
+
+/* Wikipedia */
+.mw-editsection,
+.floatright {
     display: none !important
 }
 
