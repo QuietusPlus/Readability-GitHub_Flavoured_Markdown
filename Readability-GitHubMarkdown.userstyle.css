@@ -103,7 +103,11 @@ style,
 
 /* Wikipedia */
 .mw-editsection,
-.floatright {
+.floatright,
+.tright,
+.thumb .tright,
+.printfooter,
+.catlinks {
     display: none !important
 }
 
