@@ -95,6 +95,12 @@ style,
     display: none !important
 }
 
+/* GitHub */
+.js-toggle-lang-stats,
+#readme > h3:nth-child(1) {
+    display: none !important
+}
+
 /* Wikipedia */
 .mw-editsection,
 .floatright {
